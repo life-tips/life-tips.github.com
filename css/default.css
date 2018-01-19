@@ -1,0 +1,185 @@
+.clearfix {
+  clear:both;  /* affect float, and height calculation. comment it out to see its effect*/
+}
+
+html {
+
+}
+
+img {
+  margin: 6px;
+}
+
+body {
+  background-color: white;
+  color: #444;
+  font-family: Helvetica, arial, freesans, clean, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.banner {
+  background-color: rgb(44,51,54);
+}
+
+.banner-top {
+  height: 110px;
+}
+
+.body-wrap {
+  max-width: 1300px;
+  padding-right: 150px;
+  padding-left: 150px;
+  position: relative;
+  top: -110px;
+  margin: 0 auto;
+}
+
+div#header {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.site-titles {
+  margin-top: 1px;
+}
+
+p#site-title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 800;
+  color: #dfdfdf;
+}
+
+p#site-subtitle {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 9px;
+  font-weight: 300;
+  font-style: italic;
+  color: #dfdfdf;
+}
+
+.navbar {
+  border: 0;
+}
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-header button {
+  margin: 0;
+}
+
+ul.nav.navbar-nav {
+  float: right;
+}
+
+.navbar-default .navbar-collapse.collapse {
+  border: 0;
+}
+
+div#footer {
+  background-color: rgb(44,51,54);
+  height: 30px;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 5px;
+  margin-top: 18px;
+  color: #aaa;
+  font-size: 8px;
+  font-style: italic;
+}
+
+/* general*/
+blockquote {
+  /*font: 13px/18px normal helvetica, sans-serif;*/ /* for "/", google "slash in font-size css"*/
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
+/* for reading list */
+div.readling-list {
+  padding: 0px 16px 0px 16px;
+}
+
+.rl-title {
+  line-height: 19px
+  font-size: 14px;
+}
+
+.rl-title  a{
+  color: #888;
+  text-decoration: none;
+}
+
+.rl-title  a:hover{
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+div.rl-bottom-bar {
+  height: 19px;      
+  margin: 5px 0 0;
+  line-height: 19px;
+  font-size: 11px;
+}
+
+div.rl-tags {
+  display: inline-block;
+}
+
+div.rl-tags a {
+  color: #aaa;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+div.rl-self-comment {
+  color: #aaa;
+  font-size: 12px;
+}
+
+div.rl-self-comment a{
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+
+div.readling-list span.caret {
+  margin-left: 50px;
+  color: red;
+}
+
+div.readling-list .padding {
+    border-bottom: 1px solid #eee;
+    min-height: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .body-wrap {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  .body-wrap {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-default .navbar-nav>li>a {
+    color: #dfdfdf;
+  }
+}
+

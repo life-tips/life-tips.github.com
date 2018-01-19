@@ -1,0 +1,76 @@
+.cal-header {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table.year {
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 0 auto;
+    font-size: 12px;
+    width: 65%;
+    margin-top: 30px;
+}
+
+.footer .section {
+    margin-top: 12px;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+th.month {
+    padding-bottom: 6px;
+}
+
+th.year {
+    display: none;
+}
+
+/*
+* vertical text: https://davidwalsh.name/css-vertical-text 
+*/
+td.day-cell {
+    word-wrap: break-word;
+    width: 20px;
+    /* writing-mode: vertical-lr; */
+}	
+
+
+td.sun, td.sat {
+    color: red;
+}
+
+
+td.day-cell {
+    padding: 2px;
+    font-size: 14px;
+	line-height: 15px;
+}
+
+
+td.day-cell.holiday {
+    /* bfff00 99ff33*/
+    background-color: #bfff00;
+    font-weight: bold;
+}
+
+td.day-cell.workday {
+    /* E5E7E9 e0e0e0 F2F3F4*/
+    background-color: #E5E7E9;
+}
+
+
+@media print {
+	* {margin:0;padding:0}
+	.non-printable {display: none;}
+	@page {size: A4; margin:0mm;}
+	html, body {height: 100%;}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb" lang="zh-CN" xml:lang="zh-CN">
+<head>
+  {% if page.title %}
+  <title>生活杂记 Life Tips, {{ page.title }}</title>
+  {% else %}
+  <title>生活杂记 Life Tips</title>
+  {% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="生活杂记" />
+  <meta name="keywords" content="生活 杂记 博客 上海 小贴士" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/index.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/post.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/tags.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/prism.css" />
+  <link rel="stylesheet" href="../css/syntax.css" />
+
+  <script src="/script/jquery-1.11.3.min.js" type="text/javascript"></script>
+  <script src="/script/bootstrap.min.js" type="text/javascript"></script>
+  
+  <!-- Google Analytics BEG-->
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39298232-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  <!-- Google Analytics END-->
+</head>
+
+<body>
+  <div class="banner banner-top"> </div>
+
+  <div class="body-wrap">
+    <div id="header">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="site-titles">
+            <p id="site-title">生活杂记</p>
+            <p id="site-subtitle">记录生活点滴</p>
+          </div>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+          </div> 
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+              <li><a href="/index.html">首页</a></li>
+              <li><a href="/tags/post-tags.html">归档</a></li>
+              <li><a href="/about.html">关于</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div> <!-- header -->
+
+    <div class="main-body">
+        {{ content }}
+    </div>
+
+    <div class="clearfix"> </div>
+
+    <div id="footer">
+          <p> Powered by Jekyll and Github</p>
+    </div> <!-- footer -->
+  </div> <!-- body wrap -->
+
+  <div class="banner banner-bottom"> </div>
+
+  <!-- For Comment Count BEG-->
+  <script id="dsq-count-scr" src="//hongsblog.disqus.com/count.js" async></script>
+  <!-- For Comment Count END-->  
+     
+  <script src="../script/prism.js"></script>
+  <script src="../script/index.js" type="text/javascript"></script>
+</body>
+
+</html>

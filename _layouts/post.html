@@ -1,0 +1,84 @@
+---
+layout: default
+---
+
+<div id="css-namespace-post">
+
+  <div class="post-right-col">
+    <div class="google-adsense">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- blog-right-col-ad -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8182266446134074"
+           data-ad-slot="2366507542"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+
+
+
+  <div class="post-comment">
+  <div id="post">
+    <div id="title">
+        <h1> {{ page.title }} </h1>
+        {% if page.subtitle %}
+        <h2> - {{ page.subtitle }} </h2>
+        {% endif %}
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="pub-date">
+      <span>{{ page.date | date: "%F" }}</span>
+      <span>{{ page.date | date: "%R" }}</span>
+    </div>
+    <div class="pay-weixin">
+      <p>如果你觉得这篇文章对你有用，可以微信扫一扫表示🙏 / If you find this post is useful to you, buy me 🍶 via Wechat</p>
+      <img src="/images/weixin.png"/>
+    </div>
+  </div>
+          
+
+    <div class="google-adsense-bottom">
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8182266446134074"
+           data-ad-slot="4098132749"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>    
+    </div>
+
+
+
+  
+  
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+
+var disqus_config = function () {
+    this.page.url = 'http://life-tips.github.io{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '{{ page.disqus_identifier }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//hongsblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
