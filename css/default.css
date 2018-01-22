@@ -39,6 +39,10 @@ div#header {
   padding-left: 30px;
 }
 
+a.header-nav-item:hover{
+  color: #dfdfdf !important;
+}
+
 .site-titles {
   margin-top: 12px;
 }
