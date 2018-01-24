@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb="http://open.weibo.com/wb" lang="zh-CN" xml:lang="zh-CN">
 <head>
+<!-- https://developers.google.com/analytics/devguides/collection/gtagjs/ -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39298232-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-39298232-3');
+</script>
+
+
   {% if page.title %}
   <title>生活杂记 Life Tips, {{ page.title }}</title>
   {% else %}
@@ -24,19 +36,7 @@
   <script src="/script/jquery-1.11.3.min.js" type="text/javascript"></script>
   <script src="/script/bootstrap.min.js" type="text/javascript"></script>
   
-  <!-- Google Analytics BEG-->
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39298232-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  </script>
-  <!-- Google Analytics END-->
 
   <!-- Google ad page-level beg -->  
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
