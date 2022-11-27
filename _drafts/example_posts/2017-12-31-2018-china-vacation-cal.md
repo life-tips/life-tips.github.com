@@ -1,7 +1,7 @@
 ---
 # MUST HAVE BEG
 layout: post
-disqus_identifier: 2017-12-31-2018-china-vacation-cal # DON'T CHANGE THE VALUE ONCE SET
+disqus_identifier: 2022-11-25-register-hukou-for-a-non-shanghainese-newborn # DON'T CHANGE THE VALUE ONCE SET
 title: 2018节假日日历
 # MUST HAVE END
 
@@ -25,3 +25,4 @@ but you can use <span>, <cite>, <del> freely -->
     <img src="/images/blog/2018-cal.png" alt="2018节假日日历">
   </a>
 </div>
+
